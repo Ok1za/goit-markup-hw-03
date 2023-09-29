@@ -165,7 +165,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    max-width: 494px;
+    max-width: 496px;
 }
 
 .main-button {
@@ -180,6 +180,9 @@ address {
     cursor: pointer;
     display: block;
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .main-button:hover,
