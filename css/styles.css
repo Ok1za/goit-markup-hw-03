@@ -50,6 +50,11 @@ address {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
 }
 
 .header-nav {
@@ -60,6 +65,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -77,6 +84,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 
 }
 
@@ -139,7 +147,7 @@ address {
 .main {
     background-color: #2E2F42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 
 }
 
@@ -157,6 +165,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
+    max-width: 494px;
 }
 
 .main-button {
@@ -168,7 +177,9 @@ address {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    cursor: pointer; 
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
 }
 
 .main-button:hover,
@@ -320,8 +331,8 @@ background: #FFF;
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 102px;
-    padding-bottom: 190px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo {
@@ -332,6 +343,8 @@ background: #FFF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-text {
