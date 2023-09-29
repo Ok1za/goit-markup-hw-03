@@ -8,15 +8,49 @@
     background-color: #ffffff;
 }
 
-.container { 
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: 24px;
-    margin-right: 24px;
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+.container { 
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+
 /* Header */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-nav {
     font-family: "Raleway", sans-serif;
@@ -94,10 +128,23 @@
     color: #404bbf;
 }
 
+/* MAIN */
 /* Section one */
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .main {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 292px;
+
+}
+
+.main-container {
+
 }
 
 .main-title {
@@ -109,6 +156,7 @@
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 
 .main-button {
@@ -120,7 +168,7 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .main-button:hover,
@@ -129,6 +177,10 @@
 }
 
 /* Section two */
+
+.description {
+
+}
 
 .description-list {
     font-weight: 500;
@@ -146,6 +198,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .description-item {
@@ -172,11 +225,19 @@
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #F4F4FD;
+    padding-bottom: 72px;
 
 }
 
 .members-item {
     background-color: #FFFFFF;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.members-img {
+    margin-bottom: 32px;
 }
 
 .card-subtitle {
@@ -222,6 +283,9 @@ letter-spacing: 0.02em;
     line-height: 1.11;
     letter-spacing: 0.03em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
 }
 
 .portfolio-list {
@@ -256,6 +320,8 @@ background: #FFF;
 
 .footer {
     background-color: #2E2F42;
+    padding-top: 102px;
+    padding-bottom: 190px;
 }
 
 .logo {
@@ -275,4 +341,5 @@ background: #FFF;
 .footer-item {
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    margin-top: 18px;
 }
