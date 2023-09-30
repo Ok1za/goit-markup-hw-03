@@ -44,7 +44,6 @@ address {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 
@@ -52,12 +51,15 @@ address {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -118,7 +120,7 @@ address {
 }
 
 .header-list-item {
-    padding: 24px 0;
+    
 }
 
 .header-contacts {
@@ -339,7 +341,7 @@ address {
     line-height: 24px;
     letter-spacing: 0.02em;
     margin-bottom: 32px;
-    text-align: center;
+    text-align: ;
 }
 
 /* Section four */
