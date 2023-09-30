@@ -257,6 +257,11 @@ address {
     background-color: #F4F4FD;
 }
 
+.members-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .members-title {
     font-size: 36px;
     line-height: 1.11;
