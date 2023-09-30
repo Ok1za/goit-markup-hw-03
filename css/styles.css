@@ -360,7 +360,7 @@ address {
 }
 
 .portfolio-foto {
-    margin-bottom: 32px;
+    
 }
 
 .portfolio-subtitle {
@@ -371,8 +371,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    margin-left: 16px;
+    
 }
 
 .portfolio-text {
@@ -383,8 +382,7 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    margin-left: 16px;
+    
 }
 
 /* Footer */
