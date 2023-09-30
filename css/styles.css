@@ -349,11 +349,15 @@ address {
     color: #2e2f42;
 }
 
-.portfolio-container {
+.portfolio-div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+
+.portfolio-container {
+    
 
 }
 
