@@ -54,8 +54,6 @@ address {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -69,6 +67,8 @@ address {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
