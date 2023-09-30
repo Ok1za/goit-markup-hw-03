@@ -281,9 +281,12 @@ address {
     background-color: #F4F4FD;
 }
 
+.members-div {
+    padding: 32px 0;
+}
+
 .members-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 }
 
 .members-title {
