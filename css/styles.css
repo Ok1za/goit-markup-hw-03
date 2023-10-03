@@ -51,6 +51,7 @@ address {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .header-container {
@@ -59,16 +60,9 @@ address {
 }
 
 .header-nav {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    margin: 0 auto;
 
 }
 
@@ -92,8 +86,6 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    padding: 0 15px;
-
 }
 
 .header-menu-link:hover,
@@ -184,10 +176,7 @@ address {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
-    max-width: 496px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 498px;
     margin: 0 auto;
 }
 
@@ -309,11 +298,10 @@ address {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: ((100% - 72px) / 4);
-    padding: 32px 0;
 }
 
 .members-img {
-    margin-bottom: 32px;
+    
 }
 
 .card-subtitle {
@@ -338,8 +326,6 @@ address {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    text-align: ;
 }
 
 /* Section four */
@@ -356,7 +342,6 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-container {
@@ -371,9 +356,10 @@ address {
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .portfolio-list {
@@ -387,13 +373,11 @@ address {
 }
 
 .portfolio-item {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio-foto {
-    margin-bottom: 32px;
+    
 }
 
 .portfolio-subtitle {
@@ -405,7 +389,6 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 .portfolio-text {
@@ -416,8 +399,6 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
-    margin-left: 16px;
 }
 
 /* Footer */
@@ -447,5 +428,5 @@ address {
 .footer-item {
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    margin-top: 18px;
+    max-width: 264px;
 }
