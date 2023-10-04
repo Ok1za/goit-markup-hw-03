@@ -62,7 +62,7 @@ address {
 .header-nav {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin-right: auto;
 
 }
 
